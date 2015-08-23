@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5281A454-B568-48C5-8C1C-AE1DC5F95ED7}</ProjectGuid>
+    <RootNamespace>iPhotoBookFrame</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>iPhotoBook Manager</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrowseDlg.h" />
+    <ClCompile Include="BrowseEditDlg.cpp" />
+    <ClCompile Include="BrowseSingleDlg.cpp" />
+    <ClCompile Include="file.cpp">
+      <FileType>CppHeader</FileType>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="BrowseEditDlg.h" />
+    <ClInclude Include="BrowseSingleDlg.h" />
+    <ClInclude Include="file.h" />
+    <ClInclude Include="FootDetailDlg.h" />
+    <ClInclude Include="FootDlg.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="GraphInfo.h" />
+    <ClInclude Include="GraphLegend.h" />
+    <ClInclude Include="Graphlist.h" />
+    <ClInclude Include="GraphSeries.h" />
+    <ClInclude Include="ImageInfo.h" />
+    <ClInclude Include="InfoReadDlg.h" />
+    <ClInclude Include="InsertDlg.h" />
+    <ClInclude Include="iPhotoBook.h" />
+    <ClInclude Include="iPhotoBookFrame.h" />
+    <ClInclude Include="iPhotoBookFrameDlg.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="MySubDlg.h" />
+    <ClInclude Include="Picture.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SettingDlg.h" />
+    <ClInclude Include="state.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TimeTestDlg.h" />
+    <ClInclude Include="Trie.h" />
+    <ClInclude Include="WelcomeDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BrowseDlg.cpp" />
+    <ClCompile Include="FootDetailDlg.cpp" />
+    <ClCompile Include="FootDlg.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="GraphInfo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GraphLegend.cpp" />
+    <ClCompile Include="Graphlist.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GraphSeries.cpp" />
+    <ClCompile Include="ImageInfo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="InfoReadDlg.cpp" />
+    <ClCompile Include="InsertDlg.cpp" />
+    <ClCompile Include="iPhotoBook.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="iPhotoBookFrame.cpp" />
+    <ClCompile Include="iPhotoBookFrameDlg.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="MySubDlg.cpp" />
+    <ClCompile Include="Picture.cpp" />
+    <ClCompile Include="SettingDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TimeTestDlg.cpp" />
+    <ClCompile Include="Trie.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WelcomeDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="iPhotoBookFrame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Pictures\Heartstone\QQ图片20150701215601.png" />
+    <Image Include="C:\Users\hui\Desktop\browse.bmp" />
+    <Image Include="res\about.bmp" />
+    <Image Include="res\about_focus.bmp" />
+    <Image Include="res\about_select.bmp" />
+    <Image Include="res\add.bmp" />
+    <Image Include="res\add_focus.bmp" />
+    <Image Include="res\add_select.bmp" />
+    <Image Include="res\back.bmp" />
+    <Image Include="res\back_focus.bmp" />
+    <Image Include="res\back_select.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap16.bmp" />
+    <Image Include="res\black_back.bmp" />
+    <Image Include="res\black_back_focus.bmp" />
+    <Image Include="res\black_back_select.bmp" />
+    <Image Include="res\browse.bmp" />
+    <Image Include="res\browse_focus.bmp" />
+    <Image Include="res\browse_select.bmp" />
+    <Image Include="res\CHINAmap.bmp" />
+    <Image Include="res\close.bmp" />
+    <Image Include="res\close_focus.bmp" />
+    <Image Include="res\close_select.bmp" />
+    <Image Include="res\delete.bmp" />
+    <Image Include="res\delete2.bmp" />
+    <Image Include="res\delete2_focus.bmp" />
+    <Image Include="res\delete2_select.bmp" />
+    <Image Include="res\delete_focus.bmp" />
+    <Image Include="res\delete_select.bmp" />
+    <Image Include="res\ECNUmap.bmp" />
+    <Image Include="res\edit.bmp" />
+    <Image Include="res\edit2.bmp" />
+    <Image Include="res\edit2_focus.bmp" />
+    <Image Include="res\edit2_select.bmp" />
+    <Image Include="res\edit_focus.bmp" />
+    <Image Include="res\edit_select.bmp" />
+    <Image Include="res\foodprint.bmp" />
+    <Image Include="res\foodprint_focus.bmp" />
+    <Image Include="res\foodprint_select.bmp" />
+    <Image Include="res\footprint.bmp" />
+    <Image Include="res\footprint_focus.bmp" />
+    <Image Include="res\footprint_select.bmp" />
+    <Image Include="res\icon.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\ico_128.ico" />
+    <Image Include="res\ico_16.ico" />
+    <Image Include="res\ico_24.ico" />
+    <Image Include="res\ico_32.ico" />
+    <Image Include="res\ico_48.ico" />
+    <Image Include="res\ico_64.ico" />
+    <Image Include="res\ico_72.ico" />
+    <Image Include="res\ico_96.ico" />
+    <Image Include="res\info.bmp" />
+    <Image Include="res\info_focus.bmp" />
+    <Image Include="res\info_select.bmp" />
+    <Image Include="res\insert.bmp" />
+    <Image Include="res\insert_focus.bmp" />
+    <Image Include="res\insert_select.bmp" />
+    <Image Include="res\iPhotoBookFrame.ico" />
+    <Image Include="res\mainbg.bmp" />
+    <Image Include="res\next.bmp" />
+    <Image Include="res\next_black.bmp" />
+    <Image Include="res\next_black_focus.bmp" />
+    <Image Include="res\next_black_select.bmp" />
+    <Image Include="res\next_focus.bmp" />
+    <Image Include="res\next_select.bmp" />
+    <Image Include="res\play.bmp" />
+    <Image Include="res\play_focus.bmp" />
+    <Image Include="res\play_select.bmp" />
+    <Image Include="res\pre.bmp" />
+    <Image Include="res\pre_black.bmp" />
+    <Image Include="res\pre_black_focus.bmp" />
+    <Image Include="res\pre_black_select.bmp" />
+    <Image Include="res\pre_focus.bmp" />
+    <Image Include="res\pre_select.bmp" />
+    <Image Include="res\search.bmp" />
+    <Image Include="res\search_focus.bmp" />
+    <Image Include="res\search_select.bmp" />
+    <Image Include="res\setting.bmp" />
+    <Image Include="res\setting_focus.bmp" />
+    <Image Include="res\setting_select.bmp" />
+    <Image Include="res\s_delete.bmp" />
+    <Image Include="res\s_delete_focus.bmp" />
+    <Image Include="res\s_delete_select.bmp" />
+    <Image Include="res\s_edit.bmp" />
+    <Image Include="res\s_edit_focus.bmp" />
+    <Image Include="res\s_edit_select.bmp" />
+    <Image Include="res\s_next.bmp" />
+    <Image Include="res\s_next_focus.bmp" />
+    <Image Include="res\s_next_select.bmp" />
+    <Image Include="res\s_play.bmp" />
+    <Image Include="res\s_play_focus.bmp" />
+    <Image Include="res\s_play_select.bmp" />
+    <Image Include="res\s_pre.bmp" />
+    <Image Include="res\s_pre_focus.bmp" />
+    <Image Include="res\s_pre_select.bmp" />
+    <Image Include="res\timetest.bmp" />
+    <Image Include="res\timetest_focus.bmp" />
+    <Image Include="res\timetest_select.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="iPhotoBookFrame.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

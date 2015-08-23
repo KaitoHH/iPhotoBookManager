@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\系统">
+      <UniqueIdentifier>{327add8c-3236-4885-8728-0c0b57f89f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\系统">
+      <UniqueIdentifier>{623e05b1-acbd-4611-b91d-e880c4b1e364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\窗体">
+      <UniqueIdentifier>{551af08c-51fe-4e28-afd6-6a9b1efc032a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\窗体">
+      <UniqueIdentifier>{fcd485af-0694-4768-b31a-f7f9eba599ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\核心">
+      <UniqueIdentifier>{2410d226-f814-42bd-b92e-528c78baff6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\核心">
+      <UniqueIdentifier>{4ca6cf11-4f2f-49ca-9e78-18e094e123f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhotoBookFrame.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="MySubDlg.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphInfo.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphlist.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageInfo.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhotoBook.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="Trie.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>头文件\核心</Filter>
+    </ClInclude>
+    <ClInclude Include="WelcomeDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoReadDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="iPhotoBookFrameDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseEditDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseSingleDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="FootDetailDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="FootDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphLegend.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSeries.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeTestDlg.h">
+      <Filter>头文件\窗体</Filter>
+    </ClInclude>
+    <ClInclude Include="Picture.h">
+      <Filter>头文件\系统</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="iPhotoBookFrame.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="MySubDlg.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphInfo.cpp">
+      <Filter>源文件\核心</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphlist.cpp">
+      <Filter>源文件\核心</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageInfo.cpp">
+      <Filter>源文件\核心</Filter>
+    </ClCompile>
+    <ClCompile Include="iPhotoBook.cpp">
+      <Filter>源文件\核心</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie.cpp">
+      <Filter>源文件\核心</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>源文件\核心</Filter>
+    </ClCompile>
+    <ClCompile Include="WelcomeDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoReadDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseEditDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowseSingleDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="FootDetailDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="FootDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="iPhotoBookFrameDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSeries.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphLegend.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTestDlg.cpp">
+      <Filter>源文件\窗体</Filter>
+    </ClCompile>
+    <ClCompile Include="Picture.cpp">
+      <Filter>源文件\系统</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="iPhotoBookFrame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\iPhotoBookFrame.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\hui\Desktop\browse.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\insert.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\browse.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\foodprint.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\timetest.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\footprint.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mainbg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\browse_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\browse_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\about.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\about_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\about_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\foodprint_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\foodprint_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\insert_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\insert_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\search.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\search_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\search_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\setting.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\setting_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\setting_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\timetest_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\timetest_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\footprint_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\footprint_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Pictures\Heartstone\QQ图片20150701215601.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\close_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\info.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\info_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\info_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\back_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\back_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pre.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pre_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pre_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ECNUmap.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CHINAmap.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete2_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete2_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\delete2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\add_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\add_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\add.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\black_back_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\black_back_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\black_back.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\play_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\play_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\play.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit2_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit2_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\edit2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap16.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_16.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_24.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_48.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_64.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_72.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_96.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ico_128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pre_black_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pre_black_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pre_black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next_black_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next_black_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\next_black.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_pre_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_pre.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_pre_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_next_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_next_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_next.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_edit_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_edit_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_edit.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_delete_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_delete_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_delete.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_play_select.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_play_focus.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\s_play.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
