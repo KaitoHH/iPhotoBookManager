@@ -1,6 +1,8 @@
 # iPhotoBookManager
 iPhotoBookManager is used for managering and viewing images, including search by key,insertion,deletion,footprint and testing.
 
+*I also write a user manul for this program, still in chinese:) , but it has lots of screenshots so that you can read it for fun! *
+
 *NOTE--IT ONLY HAS A CHINESE VERSION!*
 
 ##中文介绍
