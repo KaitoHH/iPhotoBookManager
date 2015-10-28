@@ -5,6 +5,10 @@ iPhotoBookManager is used for managering and viewing images, including search by
 
 *NOTE--IT ONLY HAS A CHINESE VERSION!*
 
+### IDE and RE
+- IDE : `Visual Studio 2013 Professional` , `Visual C++ 2013` , `Microsoft Foundation Classes`
+- RE: passed on `Windows 8.1/10` , may work on `Windows 7/8`, may not work on `Windows XP`
+
 ##中文介绍
 ###软件概述
 iPhotoBookManager用于对用户的图片库进行管理。用户可以添加、浏览、修改、删除自己的照片，也可以快
