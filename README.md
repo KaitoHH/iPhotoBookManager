@@ -38,3 +38,7 @@ iPhotoBookManager用于对用户的图片库进行管理。用户可以添加、
 用时长短。
 
 8. 设置界面、可以对图片库名称、图片库封面、图片库位置、搜索方式等作相关的修改。
+
+![image](https://github.com/KaitoHH/iPhotoBookManager/blob/master/s01.png)
+![image](https://github.com/KaitoHH/iPhotoBookManager/blob/master/s02.png)
+![image](https://github.com/KaitoHH/iPhotoBookManager/blob/master/s03.png)
